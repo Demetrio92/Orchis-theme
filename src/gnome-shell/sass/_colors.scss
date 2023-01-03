@@ -143,3 +143,8 @@ $error_bg_color:        $red-400;
 $border_color:          if($variant == 'light', rgba($shl_dark, 0.12), rgba($shl_light, 0.12));
 $highlight_color:       if($variant == 'light', rgba($shl_light, 0.4),  rgba($shl_light, 0.1));
 $alt_highlight_color:   rgba($shl_light, 0.2);
+
+// extra colors for submenu_style
+$selected_fg_color: $fg_color;
+$selected_bg_color: rgba($accent_color, 0.2);
+$bg_color: $base_color;
